@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inika', serif;
+    background: #FFFBEA;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #36241B;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: fixed;
+    padding: 10px;
+}
+
+a{
+    color: #FFFBEA;
+    text-decoration: none;
+}
+
+#navbaritem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #FFFBEA;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+}
+
+h1:hover {
+    color: #DE0C17;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#logobox {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#logo {
+    width: 25%;
+    height: 25%;
+    margin: 0px auto;
+}
+
+#image-banner {
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1000,height=300,format=auto,quality=80/https://doordash-static.s3.amazonaws.com/media/store/header/6e1bd61a-2e3b-4422-a0f4-b52bda53d0c1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 33vw;
+    margin: auto;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: #CECA2B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#circle-text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h2 {
+    margin: auto;
+}
+
+.big-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-box {
+	border-radius: 10px;
+	background-color: #DE0C17;
+    box-shadow: 5px 5px 5px #8F8F8F;
+	font-size: 20px;
+	padding: 8px 4px;
+	margin: 20px;
+    width: 225px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-box:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+p {
+    color:#36241B;
+    font-size: 12px;
+}
+
+/*MENU PAGE*/
+
+#deal {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    display: block;
+    padding-top: 50px;
+}
+
+.text {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright-bar {
+    width: 100%;
+    height: 100px;
+    background: #36241B;
+    color: #FFFBEA;
+	display: flex;
+    padding: 10px;
+}
+
+.menu-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+}
+
+.menu-item {
+    color: #36241B;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f2ffe3;
+    border: 1px;
+    padding: 20px;
+}
+
+.menu-item img{
+    width: 160px;
+    height: 180px;
+    padding: -20px;
+    object-fit: cover;
+    margin-right: px;
+}
